@@ -1,62 +1,38 @@
-2016 - CS308  Group X : Project README TEMPLATE 
+2016 - CS308  :Project README TEMPLATE 
 ================================================ 
  
 Group Info: 
 ------------ 
-+   Student Name (Roll Number) 
-+   Student Name (Roll Number) 
- 
+Sashank Gondala, 120050050
+Krishna Deepak, 120050057
+Bharath Kumar, 120050058
+Bharadwaj, 120050056
+
 Extension Of 
 ------------ 
- 
-Have you extended your project from any other past porjects? Please mention the title here.  
- 
+Nothing.
+
 Project Description 
 ------------------- 
  
-This is a reame template. It is written using markdown syntax. To know more about markdown you can alwats refer to [Daring Fireball](http://daringfireball.net/projects/markdown/basics).  
-You can preview how your mardown looks when rendered [here](http://daringfireball.net/projects/markdown/dingus) 
- 
-Students are requested to use this format for the sake of uniformity and convinience. Also we can parse these files and then index them for easy searching.  
- 
+The bot needs to find its way to a pre-set destination point in a given maze. We can place many barriers in its way and the bot needs to reach the destination in spite of these obstacles.
+
 Technologies Used 
 ------------------- 
  
 Remove the items that do no apply to your project and keep the remaining ones. 
  
 +   Embedded C 
-+   uCos 
-+   RTAI 
-+   MATLAB 
-+   Scilab 
-+   Xbee 
-+   JAVA 
-+   Python 
-+   Android 
-+   Kinect 
-+   Specialized Hardware 
-+   Gripper 
-+   Robotic Arm 
-+   OpenCV 
-    
  
  
 Installation Instructions 
 ========================= 
- 
-If you need any software such as scilab, OpenCV etc. Please provide [links](http://example.com) to all these software.  
- 
+Nothing is required
  
 Demonstration Video 
 =========================  
-Add the youtube link of the screencast of your project demo.
+https://www.youtube.com/watch?v=VVdn_vI5sbc&feature=youtu.be
 
 References 
 =========== 
- 
-Please give references to importance resources.  
- 
-+ [Title](http://example.org) 
-+ [Title](http://example.org) 
-+ [Title](http://example.org)
-
+We have referred to manuals provided in erts website.

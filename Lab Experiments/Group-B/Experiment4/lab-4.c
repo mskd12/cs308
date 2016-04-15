@@ -133,12 +133,12 @@ int main(void) {
 	IntEnable(INT_UART0); //enable the UART interrupt
 	UARTIntEnable(UART0_BASE, UART_INT_RX | UART_INT_RT); //only enable RX and TX interrupts
 
-	SysCtlPeripheralEnable(SYSCTL_PERIPH_ADC0);
+	SysCtlPeripheralEnable(SYSCTL_PERIPH_ADC0); // enabling ADC peripheral
 	ADCSequenceConfigure(ADC0_BASE, 1, ADC_TRIGGER_PROCESSOR, 0);
-	ADCSequenceStepConfigure(ADC0_BASE, 1, 0, ADC_CTL_TS);
+	ADCSequenceStepConfigure(ADC0_BASE, 1, 0, ADC_CTL_TS); 
 	ADCSequenceStepConfigure(ADC0_BASE, 1, 1, ADC_CTL_TS);
 	ADCSequenceStepConfigure(ADC0_BASE, 1, 2, ADC_CTL_TS);
-	ADCSequenceStepConfigure(ADC0_BASE,1,3,ADC_CTL_TS|ADC_CTL_IE|ADC_CTL_END);
+	ADCSequenceStepConfigure(ADC0_BASE,1,3,ADC_CTL_TS|ADC_CTL_IE|ADC_CTL_END); // taking 4th sample, ending ADC sampling
 	ADCSequenceEnable(ADC0_BASE, 1);
 	GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_1|GPIO_PIN_2|GPIO_PIN_3 , 0);
 	while (1) 
